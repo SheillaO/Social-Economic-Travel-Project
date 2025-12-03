@@ -65,7 +65,8 @@ body {
 
 .card-header img {
     width: 100%;
-    aspect-ratio: 16 / 9;
+    height: 220px;     /* You can adjust this height */
+    border-radius: 4px; /* (optional) matches card styling */
     object-fit: cover;
 }
 
